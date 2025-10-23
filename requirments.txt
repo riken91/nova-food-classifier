@@ -1,0 +1,9 @@
+streamlit → runs the app
+
+scikit-learn → for the RandomForest model
+
+numpy → for vector operations
+
+pandas → in case you use DataFrames
+
+joblib → to load the .pkl model
