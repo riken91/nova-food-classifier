@@ -1,9 +1,5 @@
-streamlit → runs the app
-
-scikit-learn → for the RandomForest model
-
-numpy → for vector operations
-
-pandas → in case you use DataFrames
-
-joblib → to load the .pkl model
+streamlit==1.38.0
+scikit-learn==1.5.2
+numpy==1.26.4
+pandas==2.2.2
+joblib==1.4.2
