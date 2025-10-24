@@ -56,6 +56,16 @@ all_ingredients = sorted({ing.lower() for lst in GROUP_KEYWORDS.values() for ing
 st.title("🍴 Predict the NOVA Group (1 to 4)")
 st.subheader("Based on nutritional values and ingredients")
 
+st.markdown("""
+The NOVA classification system groups foods based on their degree of industrial processing.
+The four groups are:
+*   **Group 1: Unprocessed & Minimally Processed Foods** (e.g., fresh fruits, vegetables, eggs)
+*   **Group 2: Processed Culinary Ingredients** (e.g., oils, sugar, salt)
+*   **Group 3: Processed Foods** (e.g., canned vegetables, simple cheeses)
+*   **Group 4: Ultra-Processed Foods** (e.g., packaged snacks, sugary cereals, instant noodles)
+""")
+
+
 mode = st.radio("Choose input mode:", ["Ingredients", "Groups"])
 
 if mode == "Ingredients":
